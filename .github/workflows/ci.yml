@@ -12,10 +12,6 @@ jobs:
   build-and-scan:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: read
-      security-events: write
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
